@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_current_auth_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click to start auth"
+        android:layout_centerInParent="true"
+        android:onClick="onClickStartAuth"/>
+
+    <TextView
+        android:id="@+id/tv_last_auth_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="authCode:ac.39k7b58r9opdr7as0502hxpu2dh867kn-1hqbxmxpoj-0qglhkt-umjs6xsve"
+        android:textSize="20sp"
+        android:padding="30dp" />
+
+</RelativeLayout>
